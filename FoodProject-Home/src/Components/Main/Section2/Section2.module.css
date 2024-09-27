@@ -1,4 +1,54 @@
-.section2Img{
-    width:50%;
-    height:80vh
+.section2Container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.section2Img {
+  width: 45vw;
+  height: 80vh;
+  margin-top: 100px;
+
+  object-fit: cover;
+  position: absolute;
+  left: 4rem;
+  z-index: 12;
+}
+
+.rightText {
+  position: absolute;
+  right: 6rem;
+  width: 45vw;
+  height: 90vh;
+  margin-top: 60px;
+  background: rgb(233, 230, 230);
+}
+
+.h1Text {
+  width: 52%;
+  margin-top: 155px;
+  /* border: 1px solid red; */
+  margin-left: 7.1rem;
+  font-size: 25px;
+}
+
+.pText {
+  width: 80%;
+  margin-top: 110px;
+  /* border: 1px solid red; */
+  margin-left: 3.2rem;
+  text-align: left;
+  font-size: 20px;
+}
+
+.btn {
+  width: 9rem;
+  margin-top: 8rem;
+  margin-left: 7rem;
+  padding: 10px;
+  color: white;
+  background: blue;
+  border-radius: 5px;
 }
