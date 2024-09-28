@@ -13,7 +13,7 @@ const Section1 = () => {
           <div className={style.text}>
             <h1 className={style.h1Black}>Let us find your</h1>
             <h1 className={style.h1Red}>Forever Food.</h1>
-            <p>
+            <p className={style.section1pText}>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
               illo tenetur fuga ducimus numquam ea!
             </p>

@@ -1,7 +1,7 @@
 .section2Container {
   width: 100vw;
   height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
 }
@@ -19,7 +19,7 @@
 
 .rightText {
   position: absolute;
-  right: 6rem;
+  right: 5rem;
   width: 45vw;
   height: 90vh;
   margin-top: 60px;
@@ -28,7 +28,7 @@
 
 .h1Text {
   width: 52%;
-  margin-top: 155px;
+  margin-top: 160px;
   /* border: 1px solid red; */
   margin-left: 7.1rem;
   font-size: 25px;
@@ -36,16 +36,16 @@
 
 .pText {
   width: 80%;
-  margin-top: 110px;
+  margin-top:30px;
   /* border: 1px solid red; */
-  margin-left: 3.2rem;
+  margin-left: 7.1rem;
   text-align: left;
   font-size: 20px;
 }
 
 .btn {
   width: 9rem;
-  margin-top: 8rem;
+  margin-top: 1rem;
   margin-left: 7rem;
   padding: 10px;
   color: white;
