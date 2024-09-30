@@ -1,5 +1,5 @@
 import landingPage from "../../../assets/landingPage.avif";
-import style from './Section1.module.css'
+import style from './Section1.module.css';
 // import style from "../../../Components/Main/Section1/Section1.module.css";
 
 import Section2 from "../Section2/section2";
