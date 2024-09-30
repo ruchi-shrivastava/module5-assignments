@@ -1,5 +1,6 @@
 import smallImg from '../../../assets/smallImg.avif'
-import style from '../../../Components/Main/Section3/Section3.module.css'
+import style from './Section3.module.css'
+// import style from '../../../Components/Main/Section3/Section3.module.css'
 const Section3 = () =>{
     return(
         <>

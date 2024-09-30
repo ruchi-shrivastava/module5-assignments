@@ -1,4 +1,5 @@
-import style from '../../Components/Footer/Footer.module.css'
+// import style from '../../Components/Footer/Footer.module.css'
+import style from './Footer.module.css'
 const Footer = () => {
     return(
         <div className={style.FooterContainer}>
