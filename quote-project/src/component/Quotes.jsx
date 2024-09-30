@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "../component/quotes.module.css";
+import style from "../component/Quotes.module.css";
 
 const Quotes = (props) =>{
   return(
