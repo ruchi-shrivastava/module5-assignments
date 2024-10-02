@@ -44,7 +44,11 @@ function App() {
         return updatedItems;
       });
     };
-  
+   
+    //Calculate total amount
+    const totalAmount = itemInCart.reduce((total,item) =>{
+      return total + (item.price * item.quantity);
+    },0);
 
     const addQty = (id) => {
           // Use map to update the correct item
@@ -83,9 +87,9 @@ function App() {
                  {itemInCart.map(cartData => <Cart data={cartData} addQty={addQty} removeQty={removeQty} removeItem={removeItem}/>  )}
                </div>
              )
-            }<br></br><br></br>
-            <hr></hr>
-            <Footer />
+            }<br /><br />
+            <hr />
+            <Footer totalAmount={totalAmount} />
             </div>
             
         )
