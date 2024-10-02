@@ -45,11 +45,7 @@ function App() {
       });
     };
    
-    //Calculate total amount
-    const totalAmount = itemInCart.reduce((total,item) =>{
-      return total + (item.price * item.quantity);
-    },0);
-
+    
     const addQty = (id) => {
           // Use map to update the correct item
           const updatedItems = itemInCart.map(item => {
@@ -70,14 +66,24 @@ function App() {
           });
           setItemInCart(updatedItems);
         }
+      
 
+        //Calculate total amount
+    const totalAmount = itemInCart.reduce((total,item) =>{
+      return total + (item.price * item.quantity);
+    },0);
+    
+
+   const clearCart = () =>{
+   setItemInCart([]);
+   };
 
        
         return (
           <div>
             <Header cartItems={itemInCart} />
             {itemInCart.length === 0 ? (
-              <h2>Your cart is empty</h2>
+              <h2 style={{textAlign:"center"}}>Your cart is empty</h2>
             ) : (
                <div className='main-container'>
                  <header className="">
@@ -89,7 +95,7 @@ function App() {
              )
             }<br /><br />
             <hr />
-            <Footer totalAmount={totalAmount} />
+            <Footer totalAmount={totalAmount} clearCart={clearCart} />
             </div>
             
         )
