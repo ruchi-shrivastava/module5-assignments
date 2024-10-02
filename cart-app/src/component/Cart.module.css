@@ -1,0 +1,138 @@
+main{
+    display: block;
+}
+.header{
+    text-align: center;
+    /* position: fixed; */
+}
+.nav{
+    background-color: #645CFF;
+    height: 5rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navCenter{
+   width: 100vw;
+   height: 100vh;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navLeftText{
+ color: white;
+}
+.navContainer{
+    display: block;
+    position: relative;
+}
+.amountContainer{
+    position: absolute;
+    top:-20px;
+    right:-15px;
+    width: 1.95rem;
+    height: 1.95rem;
+    border-radius: 50%;
+    background: #6495ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.totalAmount{
+    color: white;
+    margin-bottom: 10;
+    font-size: 1.25rem;
+}
+
+.cartIcon{
+    font-size: 2.25rem;
+    color:white;
+}
+
+/* mid section */
+
+.midSection{
+    width: 100vw;
+    height: 11vh;
+    margin: 40px auto 0;
+    /* padding: 2.5rem 0; */
+    max-width: 1200px;
+}
+
+
+
+.h2{
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+.cartItem{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 1.5rem;
+    margin: 1.5rem 0;
+   
+}
+.imgStyle{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+div{
+    display: block;
+}
+
+.title{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgba(7, 7, 7, 0.872);
+}
+.itemPrice{
+display: block;
+color: gray;
+}
+
+.btnRemove{
+    color:  #645CFF;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: .85rem;
+    background: transparent;
+    border: none;
+    margin-top: -456rem;
+    transition: var(--transition);
+}
+.amountBtn{
+    width: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.amount{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    display: block;
+    /* border:1px solid red */
+
+}
+
+ /* css for footer */
+
+ .footer{
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    gap:65rem;
+    max-width: 700;
+ }
+
