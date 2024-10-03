@@ -1,0 +1,62 @@
+.h1Text {
+  font-weight: 100;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 40vw;
+  height: 25vh;
+  padding: 80px;
+  margin: 40px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inputText {
+  width: 20rem;
+  padding: 8px;
+  border-top-left-radius: 3px;
+  background-color: #e2e8f0;
+  border: 2px solid #e2e8f0;
+}
+.btnClick {
+  width: 6rem;
+  padding: 5.8px;
+  border-top-right-radius: 3px;
+  background-color: #06b6d4;
+  color: white;
+  font-size: 16px;
+  border: 2px solid #06b6d4;
+}
+
+.items {
+  width: 70%;
+  margin: 20px auto;
+  margin-top: 20px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Space between list items */
+  /* border: 1px solid red; */
+}
+.checkbox {
+  margin-right: 10px;
+  text-align: start;
+}
+.delete {
+  background: black;
+  color: white;
+}
+
+.checkbox-label {
+  flex-grow: 1;
+  text-align: left;
+  /* margin-right: 10px;  */
+}
+
+input[type="checkbox"]:checked + .checkbox-label {
+  text-decoration: line-through;
+  color: gray;
+}

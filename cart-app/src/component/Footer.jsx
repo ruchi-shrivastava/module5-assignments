@@ -1,6 +1,6 @@
 import style from '../component/Cart.module.css'
 const Footer = (props) => {
-    return(
+ return(
       <>
       <div className={style.footer}>
         <h3>Total</h3>

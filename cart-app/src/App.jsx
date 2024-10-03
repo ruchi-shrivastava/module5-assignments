@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // import './App.css'
 
 import Header from './component/Header'
@@ -76,7 +79,16 @@ function App() {
 
    const clearCart = () =>{
    setItemInCart([]);
-   };
+   toast.info('cart cleared',{ position:"top-center",
+   autoClose: 3000,
+   hideProgressBar: false,
+   closeOnClick: true,
+   pauseOnHover: true,
+   draggable: true,
+   progress: undefined,
+   theme:"light",}
+   
+   )};
 
        
         return (
@@ -96,6 +108,7 @@ function App() {
             }<br /><br />
             <hr />
             <Footer totalAmount={totalAmount} clearCart={clearCart} />
+            <ToastContainer ></ToastContainer>
             </div>
             
         )
