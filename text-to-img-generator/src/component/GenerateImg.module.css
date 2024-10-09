@@ -1,0 +1,40 @@
+.container{
+    width:80%;
+    height: 80vh;
+    border:1px solid gainsboro;
+    margin: 100px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .heading {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+    }
+    .textBox{
+      /* border:1px solid red; */
+     display: flex;
+    justify-content: center;
+      gap:5px;
+      margin-top: 50px;
+    }
+    input {
+    font-size: 16px;
+     padding: 7px;
+      width: 300px;
+      /* border:1px solid red; */
+      border-radius: 5px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #06b6d4;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    button:hover {
+      background-color: #0284c7;
+    }
